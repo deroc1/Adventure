@@ -117,11 +117,11 @@ img{
         grid-row: none;
         grid-column: none;
     }
-    h1{
+    .text__h{
         font-size: 30px;
         text-indent: 0;
     }
-    h3{
+    .text__sub_h{
         font-size: 25px;
         text-indent: 0;
     }
