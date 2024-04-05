@@ -148,10 +148,11 @@ img{
     }
     .main__text{
         grid-area: mt;
-        height: 950px;
+        height: 750px;
         justify-content: space-between;
         display: flex;
         flex-direction: column;
+        text-indent: 10%;
     }
     .main__img{
         grid-area: ib;
