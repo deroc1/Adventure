@@ -119,13 +119,16 @@ img{
     }
     h1{
         font-size: 30px;
+        text-indent:none;
     }
     h3{
         font-size: 25px;
+        text-indent:none;
     }
     *{
         grid-column-start: 1;
         font-size: 20px;
+        text-indent: 10%;
     }
     .container{
         grid-template-areas: 
@@ -143,7 +146,7 @@ img{
         "ib2 ib2 ib2 ib2"
         "f f f f";
         grid-template-columns: none;
-        width: 100%;
+        width: 90%;
         gap: 1%;
     }
     .main__text{
@@ -152,7 +155,6 @@ img{
         justify-content: space-between;
         display: flex;
         flex-direction: column;
-        text-indent: 10%;
     }
     .main__img{
         grid-area: ib;
