@@ -114,8 +114,7 @@ img{
         display: none;
     }
     .header, .logo, .nav, .nav__items, .main__text, .main__img,.main__img_big1, .main__img_big2,.main__sub_p, .main__p, .main__img_small, .section__img1, .section__img2, .section__img3, .section__img4, .section__text1, .section__text2, .footer, .main__img_small{
-        grid-row: none;
-        grid-column: none;
+        grid-column: 1;
     }
     .text__h{
         font-size: 30px;
