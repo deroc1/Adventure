@@ -176,7 +176,6 @@ img{
     }
     .main__img_small .section__img1, .section__img2, .section__img3, .main__img{
         width: 100%;
-        height: 100%;
     }
     .main__p{
         grid-area: mp;
