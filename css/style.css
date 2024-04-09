@@ -18,11 +18,11 @@
     height: 75px;
 }
 .nav{
-    width: 40%;
+    width: 60%;
     display: flex;
     justify-content: space-between; }
 .nav__items{
-    width: 15%;
+    width: 20%;
 }
 .main__img{
     grid-column: 7/14; 
@@ -39,10 +39,10 @@
     height: 624px;
 }
 h1{
-    font-size: 48px;
+    font-size: 22px;
 }
 h3{
-    font-size: 22px;
+    font-size: 12px;
 }
 .main__p{
     grid-column: 7/12;
@@ -53,6 +53,9 @@ h3{
 .main__img_small{
     grid-column: 12/14;
     height: 100%;
+}
+.text__p{
+    font-size: 15px;
 } 
 img{
     width: 100%;
@@ -127,6 +130,10 @@ img{
     body{
         display: flex;
         justify-content: center;
+    }
+    .text__p{
+        font-size: 20px;
+    }
     *{
         grid-column-start: 1;
         font-size: 20px;
@@ -153,7 +160,7 @@ img{
     }
     .main__text{
         grid-area: mt;
-        height: 700px;
+        height: 950px;
         justify-content: space-between;
         display: flex;
         flex-direction: column;
@@ -212,3 +219,4 @@ img{
         text-indent: 0;
     }
 }
+
