@@ -36,7 +36,7 @@
 } 
 .main__img{
     width: 100%;
-    height: 624px;
+    height: 424px;
 }
 h1{
     font-size: 22px;
@@ -120,33 +120,36 @@ img{
         grid-column: 1;
     }
     .text__h{
-        font-size: 30px;
+        font-size: 20px;
         text-indent: 0;
     }
     .text__sub_h{
-        font-size: 25px;
+        font-size: 18px;
         text-indent: 0;
+        font-weight: normal;
     }
     body{
         display: flex;
         justify-content: center;
     }
     .text__p{
-        font-size: 20px;
+        font-size: 15px;
     }
     *{
         grid-column-start: 1;
-        font-size: 20px;
+        font-size: 15px;
         text-indent: 10%;
     }
     .container{
         grid-template-areas: 
         "h h h h"
-        "mt mt mt mt"
         "ib ib ib ib"
+        "ib ib ib ib"
+        "mt mt mt mt"
         "mp mp mp mp"
-        "ms ms ms ms"
         "is is is is"
+        "is is is is"
+        "ms ms ms ms"
         "si1 si1 si1 si1"
         "st1 st1 st1 st1"
         "si2 si2 si2 si2"
@@ -160,7 +163,7 @@ img{
     }
     .main__text{
         grid-area: mt;
-        height: 950px;
+        height: 490px;
         justify-content: space-between;
         display: flex;
         flex-direction: column;
@@ -171,6 +174,8 @@ img{
     .header{
         grid-area: h;
         justify-content: center;
+        height: 50px;
+        align-items: self-end;
     }
     .main__img_small .section__img1, .section__img2, .section__img3, .main__img{
         width: 100%;
@@ -219,4 +224,5 @@ img{
         text-indent: 0;
     }
 }
+
 
