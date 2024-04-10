@@ -161,7 +161,7 @@ img{
     }
     .main__text{
         grid-area: mt;
-        height: 350px;
+        height: 270px;
         justify-content: space-between;
         display: flex;
         flex-direction: column;
@@ -193,6 +193,7 @@ img{
     } 
     .section__img1{
         grid-area: si1;
+        height: auto;
     }
     .section__img2{
         grid-area: si2;
