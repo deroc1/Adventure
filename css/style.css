@@ -161,7 +161,7 @@ img{
     }
     .main__text{
         grid-area: mt;
-        height: 340px;
+        height: 350px;
         justify-content: space-between;
         display: flex;
         flex-direction: column;
