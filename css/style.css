@@ -175,8 +175,9 @@ img{
         height: 50px;
         align-items: self-end;
     }
-    .main__img_small .section__img1, .section__img2, .section__img3, .main__img{
+    .main__img_small .section__img1, .section__img2, .section__img3, .section__img4, .main__img_big2, .main__img{
         width: 100%;
+        height: auto;
     }
     .main__p{
         grid-area: mp;
