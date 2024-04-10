@@ -42,7 +42,7 @@ h1{
     font-size: 25px;
 }
 h3{
-    font-size: 18px;
+    font-size: 20px;
 }
 .main__p{
     grid-column: 7/12;
@@ -136,6 +136,7 @@ img{
         grid-column-start: 1;
         font-size: 15px;
         text-indent: 10%;
+        height: auto;
     }
     .container{
         grid-template-areas: 
